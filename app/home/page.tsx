@@ -48,7 +48,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-6 overflow-x-auto">
+            <div className="overflow-x-auto pt-6">
               <Table className="min-w-full sm:overflow-scroll">
                 <TableHeader>
                   <TableRow className="font-semibold">
@@ -73,7 +73,7 @@ export default function Home() {
                     </TableCell>
                     <TableCell>09 a 11 de Julho</TableCell>
                     <TableCell className="text-right">
-                      <EllipsisVertical size={24} className="mt-1.5 text-[#CC6237]" />
+                      <EllipsisVertical size={24} className="text-[#CC6237]" />
                     </TableCell>
                   </TableRow>
                   <TableRow className="font-normal text-[#657593]">
@@ -90,7 +90,7 @@ export default function Home() {
                     </TableCell>
                     <TableCell>09 a 11 de Julho</TableCell>
                     <TableCell className="text-right">
-                      <EllipsisVertical size={24} className="mt-1.5 text-[#CC6237]" />
+                      <EllipsisVertical size={24} className="text-[#CC6237]" />
                     </TableCell>
                   </TableRow>
                 </TableBody>
