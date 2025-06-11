@@ -18,7 +18,7 @@ export default function Sidebar() {
           />
         </div>
         <div className="flex flex-col gap-2 p-3.5 sm:items-center">
-          <SidebarButton href="#">
+          <SidebarButton href="/construction">
             <LayoutGridIcon />
             <span className="hidden md:inline">Dashboard</span>
           </SidebarButton>
@@ -28,12 +28,12 @@ export default function Sidebar() {
             <span className="hidden md:inline">Eventos</span>
           </SidebarButton>
 
-          <SidebarButton href="#">
+          <SidebarButton href="/construction">
             <Users />
             <span className="hidden md:inline">Equipes</span>
           </SidebarButton>
 
-          <SidebarButton href="#">
+          <SidebarButton href="/construction">
             <SquareUser />
             <span className="hidden md:inline">Inscrições</span>
           </SidebarButton>
@@ -48,7 +48,7 @@ export default function Sidebar() {
           <div className="hidden md:block">
             <UserProfile name="Kaique Steck" role="Administrador" />
           </div>
-          <SidebarButton href="#">
+          <SidebarButton href="/construction">
             <CircleUser />
             <span className="hidden md:inline">Alterar Dados</span>
           </SidebarButton>

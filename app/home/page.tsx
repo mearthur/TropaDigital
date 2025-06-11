@@ -32,7 +32,7 @@ export default function Home() {
             <div className="flex w-full flex-col items-end gap-4 sm:flex-row sm:items-center sm:justify-end">
               <div className="w-full sm:w-auto">
                 <div className="relative w-full sm:w-[250px] md:w-[250px]">
-                  <Search className="absolute top-2.5 left-3 h-5 w-5 text-gray-400" />
+                  <Search className="absolute top-2 left-3 h-5 w-5 text-gray-400" />
                   <Input
                     type="search"
                     placeholder="Buscar eventos"
